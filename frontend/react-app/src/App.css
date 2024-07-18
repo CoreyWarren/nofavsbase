@@ -34,23 +34,26 @@ header h1 {
 .hero {
   background-size: cover;
   background-position: center;
-  color: white;
+  color: black;
   padding: 100px 0;
   text-align: center;
   position: relative;
 }
 
 .hero .band-photo {
-  background-image: url('path/to/band-photo.jpg');
+  /*background-image: url('path/to/band-photo.jpg');*/
+  background-image: none;
   height: 300px;
 }
 
 .hero .latest-single {
-  background-image: url('path/to/latest-single.jpg');
+  /*background-image: url('path/to/latest-single.jpg');*/
+  background-image: none;
   height: 300px;
 }
 
 .hero .spotify-link {
+  margin: 15%;
   margin-top: 20px;
 }
 
@@ -58,7 +61,7 @@ header h1 {
 .split-section {
   display: flex;
   justify-content: space-between;
-  padding: 50px 20px;
+  padding: 50px 100px;
   background-color: white;
 }
 
